@@ -5,7 +5,7 @@
       "dev": "nodemon ./index.js"
    },
    "engines": {
-      "node": "14.x"
+      "node": "19.7.0"
    },
    "dependencies": {
       "body-parser": "^1.20.2",

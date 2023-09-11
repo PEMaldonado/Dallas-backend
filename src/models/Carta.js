@@ -17,9 +17,9 @@ module.exports = (sequelize) => {
       descripcion: { type: DataTypes.STRING, allowNull: false },
       precio: { type: DataTypes.FLOAT, allowNull: false },
       isActive: {
-        type: DataTypes.BOOLEAN,
+        type: DataTypes.ENUM("Activo", "Inactivo"),
         allowNull: false,
-        defaultValue: true,
+        defaultValue: "Activo",
       },
     },
     {

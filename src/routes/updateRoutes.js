@@ -2,8 +2,8 @@ const { Router } = require("express");
 
 const { update } = require("../handlers/foodHandlers");
 
-const foodRoutes = Router();
+const updateRoutes = Router();
 
-foodRoutes.patch("/:id", update);
+updateRoutes.patch("/:id", update);
 
-module.exports = foodRoutes;
+module.exports = updateRoutes;
